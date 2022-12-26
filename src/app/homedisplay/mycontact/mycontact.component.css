@@ -1,0 +1,92 @@
+.contact{
+    background-image: url('../../../assets/BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+
+/* ................Media Query............... */
+/* Medium devices (Iphone XR, Samsung Galaxy S8, 768px and up) */
+@media only screen and (max-width: 414px) {
+    .lets_talk{
+        padding-top: 22%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 22%;
+    }
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .lets_talk{
+        padding-top: 48%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 48%;
+    }
+    }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .lets_talk{
+        padding-top: 48%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 48%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .lets_talk{
+        padding-top: 48%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 48%;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .lets_talk{
+        padding-top: 21%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 21%;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .lets_talk{
+        padding-top: 21%;
+    }
+    
+    .contact_form{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 21%;
+    }
+  }
+
+
+
+
+

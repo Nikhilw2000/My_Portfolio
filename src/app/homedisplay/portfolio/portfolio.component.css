@@ -1,0 +1,10 @@
+.portfolio {
+  background-image: url('../../../assets/BackgroundImage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* background-color: aquamarine; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* ...................Media Query................ */

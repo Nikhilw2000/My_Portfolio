@@ -1,0 +1,114 @@
+/* ...........................<About Me>........................... */
+.about-me {
+    background-color: hsl(197, 83%, 16%);
+    background-image: url('../../../assets/BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-me .about-heading {
+    /* color: #25b79f; */
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+p, h2 , a {
+    color: black;
+    text-align: center;
+}
+
+.progress{
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 25%;
+}
+
+/* ...........................</About Me>........................... */
+
+
+/* ............Media Query............. */
+/* Medium devices (Iphone XR, Samsung Galaxy S8, 768px and up) */
+@media only screen and (max-width: 414px) {
+    img {
+        max-height: 150px;
+        max-width: 150px;
+        border: 2px solid black;
+    }
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        img {
+            max-height: 150px;
+            max-width: 150px;
+            border: 2px solid black;
+        }
+    }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    img {
+        margin-top: 10%;
+        max-height: 300px;
+        max-width: 300px;
+        border: 2px solid black;
+        margin-bottom: 10%;
+    }
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    img {
+        margin-top: 80px;
+        max-height: 300px;
+        max-width: 300px;
+        border: 4px solid black;
+        margin-bottom: 70px;
+    }
+    P{
+        padding-top: 5%;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    img {
+        margin-top: 10px;
+        max-height: 300px;
+        max-width: 300px;
+        border: 4px solid black;
+        margin-bottom: 10px;
+    }
+    P{
+        padding-top: 0%;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    img {
+        margin-top: 10px;
+        max-height: 300px;
+        max-width: 300px;
+        border: 4px solid black;
+        margin-bottom: 10px;
+    }
+    P{
+        padding-top: 0%;
+    }
+  }
+
+
+
